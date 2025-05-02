@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    border: 0;
+}
+.a{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: green;
+    gap:80px;
+}
+
+ul{
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+.p{
+    position: relative;
+    display: inline-block;
+}
+.l{
+    position: absolute;
+    display: none;
+}
+.p:hover .l{
+    display: block;
+}
